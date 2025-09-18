@@ -53,7 +53,7 @@
             flex: 1;
             padding: 14px;
             border: 2px solid #ddd;
-            border-radius: 6px 0 0 6px;
+            border-radius: 6px;
             font-size: 16px;
             outline: none;
             transition: border-color 0.3s;
@@ -69,10 +69,11 @@
             color: white;
             border: none;
             padding: 14px 20px;
-            border-radius: 0 6px 6px 0;
+            border-radius: 6px;
             cursor: pointer;
             font-size: 16px;
             transition: background-color 0.3s;
+            margin-left: 10px;
         }
         
         #toDoBtn:hover {
